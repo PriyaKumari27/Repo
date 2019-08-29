@@ -7,7 +7,7 @@ public class AddTwoNumbers {
 	private static Scanner sc;
 
 	public static void main(String[] args) {
-		int Number1, Number2, Sum;
+		int Number1, Number2, Sum,Diff;
 		sc = new Scanner(System.in);
 		
 		System.out.println("\n Please Enter the First integer Value: ");
@@ -18,6 +18,9 @@ public class AddTwoNumbers {
 		
 		Sum = Number1 + Number2;
 		System.out.println("\n Sum of the two integer values is = " + Sum);
+		
+		Diff = Number1 - Number2;
+		System.out.println("\n Difference of the two integer values is = " + Diff);
 	}
 
 
