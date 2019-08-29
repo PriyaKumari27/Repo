@@ -23,6 +23,5 @@ public class AddTwoNumbers {
 		System.out.println("\n Difference of the two integer values is = " + Diff);
 	}
 
-
 }
 
